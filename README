@@ -1,0 +1,16 @@
+CS450 Assignment 4
+Nickolas Graczyk
+David Pennington
+
+Running the program
+------------------------------
+Using the Makefile, you can run make test-{0-4} to run the file tests/test-{0-4}.data and the results will go into tests/test-{0-4}.out. 
+The default lisp is set to clisp as it was the one defined in class.
+However, the LISP variable can be changed in the Makefile to any lisp that allows for input redirection.
+Results are included with the submission for test-{0-4} produced by clisp. 
+
+test-0.data is the small test data that was provided by Dr Finkel on the assignment page.
+test-1.data is the large test data provided by Dr Finkel at http://www.cs.uky.edu/~raphael/courses/CS450/data.ternary.txt
+test-2.data is a NIL list to make sure the program handles it correctly.
+test-3.data is a test that has the same number repeated 3 times to make sure the tree is formed correctly.
+test-4.data is a set of 100 randomly generated numbers between 1 and 100 to test with random data.
