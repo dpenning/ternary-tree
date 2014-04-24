@@ -27,7 +27,7 @@
 					(list a value)
 					(list value a)))
 
-			; if the length is greate than 1
+			; if the length is greater than 1
 			(if ( = 2 (list-length tern_tree))
 
 				; if the length is 2
